@@ -102,6 +102,13 @@ class PlaceDetails extends StatelessWidget {
                               color: Colors.white
                             ),
                             textAlign: TextAlign.justify,
+                          ),
+                          SizedBox(height: 200.0),
+                          RaisedButton(
+                            onPressed: () {},
+                            color: Colors.blue,
+                            textColor: Colors.white,
+                            child: Text("Navigate"),
                           )
                         ],
                       ))

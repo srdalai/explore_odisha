@@ -22,7 +22,7 @@ class NewDrwaer extends Drawer implements StatelessWidget {
                 padding: const EdgeInsets.only(top: 50.0, bottom: 20.0),
                 child: isLoggedIn ? CircleAvatar(
                   radius: 50.0,
-                  backgroundImage: AssetImage("assets/account_pictures/user_3.jpg"),
+                  backgroundImage: AssetImage("assets/account_pictures/user_4.jpg"),
                 ) : CircleAvatar(
                   radius: 50.0,
                   backgroundColor: Colors.teal,

@@ -17,6 +17,8 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
   simple_coverflow: "^0.0.6"
+  http: ^0.12.0
+  flare_flutter: any
 
 dev_dependencies:
   flutter_test:
@@ -42,6 +44,7 @@ flutter:
     - assets/account_pictures/user_1.jpg
     - assets/account_pictures/user_2.jpg
     - assets/account_pictures/user_3.jpg
+    - assets/account_pictures/user_4.jpg
     - assets/places/dubai.jpg
     - assets/places/italy.jpg
     - assets/places/nyc.jpg
@@ -58,6 +61,8 @@ flutter:
     - assets/places/Rajarani-Temple.jpg
     - assets/places/Udayagiri-and-Khandagiri-Caves.jpg
     - assets/places/BPIA.jpg
+
+    - assets/circular.flr
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
